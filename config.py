@@ -28,7 +28,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "20053544")
     API_HASH  = os.environ.get("API_HASH", "f26c4d28081c11e0c48707143f7bb5b1")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6614517373:AAHcoPA3v3dULv72p88vND8hva0ptuWK53g") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6532696752:AAG9fB20hBkePWyJ6zrry8GrAJgI9xQO3UE") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","pyro-rename-bot")     
@@ -38,7 +38,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/52807f093e8b1f225a37a.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1439022100').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001688675040") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Movie_Time_HD_1") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1001688675040"))
 
     # wes response configuration     
