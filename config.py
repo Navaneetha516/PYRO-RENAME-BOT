@@ -15,7 +15,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-Telegram Link : https://t.me/PYRO_BOTZ 
+Telegram Link : https://t.me/Movie_Time_HD_1 
 Repo Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT
 License Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT/blob/main/LICENSE
 """
@@ -38,8 +38,8 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/52807f093e8b1f225a37a.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1439022100').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "Movie_Time_HD_1") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002048039348"))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002120181679") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002120181679"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
